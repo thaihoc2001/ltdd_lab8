@@ -28,6 +28,14 @@ public class User {
         this.name = name;
     }
 
+    public User() {
+    }
+
+    public User(int uid, String name) {
+        this.uid = uid;
+        this.name = name;
+    }
+
     public User(String name) {
         this.name = name;
     }

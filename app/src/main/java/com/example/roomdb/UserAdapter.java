@@ -53,4 +53,13 @@ public class UserAdapter extends BaseAdapter {
 
         return view;
     }
+    public void addItem(User user){
+        list.add(user);
+        notifyDataSetChanged();
+    }
+
+    public void removeItem(User user){
+        list.remove(user);
+        notifyDataSetChanged();
+    }
 }
